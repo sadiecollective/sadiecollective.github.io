@@ -1,0 +1,88 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #ffffff;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  }
+
+  .display-4 {
+    font-size: 2.5rem;
+  }
+  @media (min-width: 768px) {
+    .display-4 {
+      font-size: 3rem;
+    }
+  }
+
+  .paraSection h3 {
+    color: #4c416e;
+  }
+
+  p {
+    font-family: 'Montserrat','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .headerContainer {
+      background-image: url(imgs/newsletterPictureSVG.svg);
+        background-size: cover;
+        background-position: right 0px bottom 0px;
+  }
+  
+  .footerContainer {
+    background-color: #4c416e;
+  }
+
+  .statementContainer h3 {
+    color: #4c416e;
+  }
+
+  /* Card Edits */
+
+  .cardColor {
+    background-color: #4c416e;
+  }
+  
+  .cardSection a {
+  color: #7c84bc;
+  }
+
+  .cardSection a:hover{
+    color: #4c416e;
+  }
+
+  .cardSection h3 {
+    color: #4c416e;
+  }
+
+  .cardSection .card-title {
+    color:#7c84bc;
+  }
+
+  .cardSection, .card-text {
+    color: white;
+  }
+
+  .cardSection .card-text {
+    color: #4c416e;
+  }
+
+  .cardSection .card-header {
+    background-color: #4c416e;
+  }
+
+  /* Footer Edits */
+
+  .footerText {
+    color: white;
+  }
+
+  .footerText a {
+    color: #7c84bc;
+  }
+
+  .footerText a:hover {
+    color: white;
+  }
