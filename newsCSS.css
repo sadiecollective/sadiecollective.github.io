@@ -26,9 +26,10 @@ body {
   }
 
   .headerContainer {
-      background-image: url(imgs/newsletterPictureSVG.svg);
+    background-color: #4c416e;
+      /* background-image: url(imgs/newsletterPictureSVG.svg);
         background-size: cover;
-        background-position: right 0px bottom 0px;
+        background-position: right 0px bottom 0px; */
   }
   
   .footerContainer {
@@ -44,7 +45,15 @@ body {
   .cardColor {
     background-color: #4c416e;
   }
+
+  .updateStatement a {
+    color: #7c84bc;
+    }
   
+  .updateStatement a:hover{
+    color: #4c416e;
+  }
+
   .cardSection a {
   color: #7c84bc;
   }
